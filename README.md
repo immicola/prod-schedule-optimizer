@@ -30,8 +30,8 @@ API-сервис для оптимизации производственног�
 ### 1. Клонирование репозитория
 
 ```bash
-git clone <URL_вашего_репозитория>
-cd <название_папки_проекта>
+git clone https://github.com/immicola/prod-schedule-optimizer.git
+cd prod-schedule-optimizer
 ```
 
 ### 2. Установка зависимостей
@@ -48,15 +48,6 @@ source venv/bin/activate  # Для Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-
-> **Примечание:** Если у вас нет файла `requirements.txt`, создайте его командой:
-> `pip freeze > requirements.txt`
-> Он должен содержать как минимум:
-> ```
-> Flask==3.0.3
-> ortools==9.9.3963
-> redis==5.0.4
-> ```
 
 ### 3. Запуск Redis
 
